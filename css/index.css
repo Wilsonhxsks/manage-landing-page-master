@@ -1,0 +1,570 @@
+/*400 font-family: 'Be Vietnam Pro', sans-serif;*/
+/*500 font-family: 'Be Vietnam Pro', sans-serif;*/
+/*700 font-family: 'Be Vietnam Pro', sans-serif;*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+p {
+  color: gray;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+h4,
+li{
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+@media (min-width: 1440px) {
+  header {
+    display: flex;
+    width: calc(100% - 0px);
+    height: 100px;
+    justify-content: space-between;
+    background-color: hsl(340deg 82% 52%);
+    padding: 0px 40px;
+  }
+   header nav ul {
+    list-style: none;
+    color: white;
+    line-height: 105px;
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+   header ul li {
+    display: inline;
+    padding-left: 20px;
+  }
+  header img {
+    width: 15%;
+    height: 30px;
+    margin: 40px 10px;
+  }
+  header div,
+  .div-one-one,
+  .get-started,
+  .div-five p{
+    background-color: #f36238;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    margin: 21px 0 0 0px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  .content {
+    background-color: #000000;
+    padding: 90px;
+    width: 100%;
+    height: 2160px;
+  }
+  .content .img-one {
+    float: right;
+  }
+  .div-one h1 {
+    color: white;
+    font-size: 50px;
+    max-width: 465px;
+    margin-top: 70px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+  }
+  .div-one p {
+    font-size: 17px;
+    max-width: 450px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+  }
+  .div-one-one {
+    margin-top: 40px;
+  }
+  .div-two {
+    margin-top: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .div-two-one,
+  .div-two-two {
+    width: 48%;
+  }
+  .div-two-one h1 {
+    font-size: 40px;
+    width: 93%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
+  .div-two-one p {
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+  }
+  .div-two-two div {
+    position: relative;
+  }
+  .div-two-two span {
+    position: absolute;
+    left: -50px;
+    background-color: #f36238;
+    display: block;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    top: -5px;
+  }
+  .div-two-two h4 {
+    margin: 30px 30px 20px;
+    font-size: 20px;
+    color: white;
+  }
+  .div-two-two p {
+    margin: 10px 0px 10px 30px;
+    font-size: 20px;
+    width: 77%;
+    line-height: 30px;
+    word-spacing: 5px;
+  }
+  .div-three{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .div-three h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
+  .div-three img{
+    width: 30%;
+  }
+  .div-three div{
+    width: calc(90% / 4);
+    text-align: center;
+  }
+  .div-three p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 10px;
+  }
+  .div-three h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+  }
+  .get-started{
+    margin: 100px 40% 0px;
+  }
+  .div-five{
+    background-color:#f44336;
+    width:100%;
+    margin: -20px 0 0 0 ;
+    padding: 60px 90px;
+    position: relative;
+  }
+  .div-five h1{
+    max-width: 52%;
+    font-size: 50px;
+  }
+  .div-five p{
+    position: absolute;
+    top: 100px;
+    left: 70%;
+  }
+  footer{
+    position: relative;
+    background-color: #1e1e26;
+    height: 300px;
+    padding: 60px 90px;
+  }
+  .logo{
+    position: absolute;
+    left: 90px;
+    top: 60px;
+  }
+  .logo img{
+    width: 70%;
+    height: 50px;
+  }
+  .img{
+    position: absolute;
+    top: 200px;
+  }
+  .img img{
+    margin-left: 20px;
+  }
+  .input{
+    position: absolute;
+    right: 180px;
+    width: 300px;
+    height: 50px;
+  }
+  .input input{
+    width: 300px;
+    height: inherit;
+    border-radius: 30px;
+    padding: 30px 30px;
+    border: none;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+  input:focus{
+    outline: none;
+  }
+  footer p{
+    width: 70px;
+    background-color:#f44336;
+    position: absolute;
+    right: 90px;
+    top: 70px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+  }
+  footer .one,
+  footer .two{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    list-style: none;
+  }
+  footer .one{
+    left: 450px;
+  }
+  footer .two{
+    left: 700px;
+  }
+  footer li{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+  }
+  .copyright{
+    position: absolute;
+    right: 90px;
+    top: 70%;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+  .attribution{
+    position: absolute;
+    left: 31%;
+    top: 90%;
+    font-size: 20px;
+    color: wheat;
+    text-transform: capitalize;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-color: hsl(340deg 82% 52%);
+  }
+  header ul,
+  header div {
+    display: none;
+  }
+  header img {
+    width: 35%;
+    height: 35px;
+    margin: 43px 10px;
+  }
+  nav {
+    width: 40px;
+    height: 4px;
+    position: relative;
+    background-color: #333;
+    top: 40px;
+    right: 20px;
+  }
+  nav::before,
+  nav::after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    width: inherit;
+    height: inherit;
+    right: inherit;
+  }
+  nav::after {
+    top: 10px;
+    right: 0px;
+  }
+  nav::before {
+    top: 20px;
+    right: 0px;
+  }
+  .content {
+    background-color: #000000;
+    padding: 20px;
+    width: 100%;
+    height: 3500px;
+  }
+  .content .img-one {
+    float: right;
+    width: 100%;
+  }
+  .div-one{
+    text-align: center;
+  }
+  .div-one h1 {
+    color: white;
+    font-size: 39px;
+  }
+  .div-one p {
+    font-size: 15px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+  }
+  .div-one-one,
+  .get-started,
+  .div-five p{
+    background-color: #f36238;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 50%;
+    height: 60px;
+    margin: 21px 25% 0px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  .div-two {
+    margin-top: 170px;
+    width: 100%;
+  }
+  .div-two-one{
+    text-align: center;
+  }
+  .div-two-one h1 {
+    font-size: 30px;
+    width: 100%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
+  .div-two-one p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 3px;
+  }
+  .div-two-two div {
+    position: relative;
+    margin-top: 50px;
+  }
+  .div-two-two span {
+    position: absolute;
+    left: 20px;
+    background-color: #f36238;
+    display: block;
+    width: 60px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    top: -5px;
+  }
+  .div-two-two h4 {
+    font-size: 15px;
+    color: white;
+    margin-left: 100px;
+    line-height: 30px;
+  }
+  .div-two-two p {
+    margin: 20px 20px 0px 20px;
+    font-size: 14px;
+    width: calc(100% - 40px);
+    line-height: 30px;
+  }
+  .div-three{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .div-three h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+  }
+  .div-three img{
+    width: 30%;
+  }
+  .div-three div{
+    width: 100%;
+    text-align: center;
+  }
+  .div-three p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+  .div-three h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+  }
+  .get-started{
+    margin: 50px 25% 0px;
+  }
+  .div-five{
+    background-color:#f44336;
+    width:100%;
+    height: 400px;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .div-five h1{
+    max-width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+  .div-five p{
+    position: absolute;
+    top: 270px;
+    left: 0%;
+  }
+  footer{
+    position: relative;
+    background-color: #1e1e26;
+    height: 600px;
+    padding: 30px 20px;
+  }
+  .logo{
+    position: absolute;
+    left: 110px;
+    top: 380px;
+  }
+  .logo img{
+    width: 70%;
+    height: 30px;
+  }
+  .img{
+    position: absolute;
+    top: 300px;
+    left: 60px;
+  }
+  .img img{
+    margin-left: 15px;
+    width: 30px;
+  }
+  .input{
+    position: absolute;
+    width:70%;
+    height: 50px;
+  }
+  .input input{
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+    padding: 30px 30px;
+    border: none;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+  input:focus{
+    outline: none;
+  }
+  footer p{
+    width: 60px;
+    background-color:#f44336;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  footer .one,
+  footer .two{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    top: 140px;
+  }
+  footer .one{
+    left:70px;
+  }
+  footer .two{
+    left:200px;
+  }
+  footer li{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+  }
+  .copyright{
+    position: absolute;
+    right: 35px;
+    top: 75%;
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+  }
+  .attribution{
+    position: absolute;
+    left: 0%;
+    top: 90%;
+    font-size: 20px;
+    color: wheat;
+    text-transform: capitalize;
+  }
+}
